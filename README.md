@@ -1,9 +1,9 @@
 🎯 Please mention the requirements you met and which goals you achieved for this assignment.
 
-> Flow of fixes.
->
 > App was deployed succesfully on vercel.
->
+
+# Flow of fixes.
+
 > Install npm modules
 >
 > Fix img to Image in comments list
