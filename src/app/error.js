@@ -9,7 +9,7 @@ export default function Error({ error, reset }) {
       <body className="flex flex-col justify-center items-center">
         <Image src={ohNoes} alt="Cat says oh noes!" width="400" height="359" />
         <p>Oh noes something went wrong!</p>
-        <p>{error.message}</p>
+        <p>{error?.message || "This is an error!"}</p>
         <LoginButton onClick={() => reset()} />
       </body>
     </html>
